@@ -6,6 +6,7 @@ import numpy as np
 import os
 from openai import OpenAI
 
+#open AI api key
 client = OpenAI(
   base_url ="https://api.groq.com/openai/v1",
   api_key = os.environ['GROQ_API_KEY']
